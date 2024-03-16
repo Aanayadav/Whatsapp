@@ -1,0 +1,46 @@
+body{
+    
+    margin:0px;
+    pedding:0px;
+}
+#container{
+    display:flex;
+    width:100%;
+}
+#search {
+    height:30px;
+width: 95%;
+color:rgb(24, 22, 22) ;
+text-align:center;
+border:solid thin white;
+background-color:rgb(104, 93, 93);
+margin-left:10px;
+margin-top: 30px;
+margin-right: zpx;
+padding-inline-end: 0px;
+}
+#sidebar{
+    height:800px;
+    width:30%;
+    background-color:white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#viewbar{
+    height:800px;
+    width:70%;
+    background-color:grey;
+    text-align:center;
+    color:white;
+    margin-top: 10px;
+}
+.menu{
+    height:70px;
+    width:100%;
+    background-color: white;
+    color: black;
+    border-color: rgb(17, 18, 17);
+    margin-top: 20px;
+   padding-left: 5px;
+
+}
