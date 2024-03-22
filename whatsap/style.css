@@ -1,0 +1,71 @@
+body{
+  mrgin:0px;
+  pedding:0px;
+    }
+#container{
+   display:flex;
+
+   width:100%;
+
+   }
+#sidebar{
+    height:800px;
+    width:30%;
+    background-color:black;
+    padding:5px;
+
+   }
+#viewbar{
+  height:800px;
+  width:70%;
+  background-color:#212326;
+  text-align:center;
+  color:white;
+ }
+#search{
+ height:30px;
+ width:97%;
+ color:white;
+ text-align:center;
+background-color:grey;
+margin-top:20px;
+
+margin-bottom:20px;
+margin-left:7px;
+ }
+ 
+
+.contactname{
+
+height:50px;
+ width:100%;
+background-color:#3c4046;
+ text-align:left;
+border:solid thin rgb(31, 29, 29);
+padding:5px;
+color :white;
+
+}
+#div5{
+  padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
