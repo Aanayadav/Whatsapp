@@ -1,66 +1,81 @@
-body{
-  mrgin:0px;
-  pedding:0px;
-    }
-#container{
-   display:flex;
+body {
+  mrgin: 0px;
+  pedding: 0px;
+}
 
-   width:100%;
+#container {
+  display: flex;
 
-   }
-#sidebar{
-    height:700px;
-    width:30%;
-    background-color:black;
-    padding:5px;
-
-   }
-#viewbar{
-  height:px;
-  width:70%;
-  background-color:#212326;
-  text-align:center;
-  color:white;
- }
-#search{
-  padding: 5px;
-
- color:white;
- text-align:left;
-background-color:grey;
-margin-top:20px;
-margin-left:1px;
-display:flex;
-
-
- }
- #search icon{
-  margin-left: 2px;
-
- }
- #newchat{
-  margin-left: 2px;
-
- }
-
-.contactname{
-
-height:50px;
- width:100%;
-background-color:#26282a;
- text-align:left;
-border:solid thin rgb(31, 29, 29);
-padding:5px;
-color :white;
+  width: 100%;
 
 }
-#div5{
+
+#sidebar {
+  height: 700px;
+  width: 30%;
+  background-color: black;
+  padding: 5px;
+
+}
+
+#viewbar {
+  height: px;
+  width: 70%;
+  background-color: #212326;
+  text-align: center;
+  color: white;
+}
+
+#search {
+  padding: 5px;
+
+  color: white;
+  text-align: left;
+  background-color: grey;
+  margin-top: 20px;
+  margin-left: 1px;
+  display: flex;
+
+
+}
+
+#search icon {
+  margin-left: 2px;
+
+}
+
+#newchat {
+  margin-left: 2px;
+
+}
+
+.contactname {
+
+  width: 100%;
+  background-color: #26282a;
+  text-align: left;
+  border: solid thin rgb(31, 29, 29);
+  padding: 5px;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+
+  
+}
+
+#div5 {
   margin-top: 0px;
   padding: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 610px;
  
+
 }
-*img{
-  border-radius: circle;
-  width: 1px;
-height:0px
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
 }
