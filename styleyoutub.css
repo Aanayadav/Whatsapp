@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+    #search {
+        padding: 5px;
+      
+        color: white;
+        text-align: left;
+        background-color:black;
+       
+        display: flex;
+        border-radius: 20px;
+        border:solid thin white;
+      
+      
+      
+      }
+      
+      #search icon {
+        margin-left: 2px;
+      
+      }
+      #container {
+        display: flex;
+      
+        width: 100%;
+      
+      }
+      
+      #sidebar {
+        height: 670px;
+        width: 30%;
+        background-color: black;
+        padding: 5px;
+      
+      }
+      
+      #viewbar {
+        height:670 px;
+        width: 70%;
+        background-color:black;
+        text-align: center;
+        color: white;
+      }
+      .menubar{
+        border:solid thin white;
+        color: white;
+        padding: 5px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 650x;
+      }
+  
