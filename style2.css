@@ -1,56 +1,34 @@
 body{
-    mrgin:0px;
-    pedding:0px;
-      }
-  #container{
-     display:flex;
-  
-     width:70%;
-  
-     }
-  #sidebar{
-      height:800px;
-      width:5%;
-      background-color:black;
-      padding:5px;
-  
-     }
-    
-  #viewbar{
-    height:800px;
-    width:70%;
-    background-color:#212326;
-    text-align:center;
-    color:white;
-   }
-  #search{
-   height:30px;
-   width:97%;
-   color:white;
-   text-align:center;
-  background-color:grey;
-  margin-top:20px;
-  margin-left: 45px;
-  margin-bottom:20px;
-  margin-left:7px;
-
-   }
-   #profile{
-   height:30px;
-   width:97%;
-   color:white;
-   text-align:center;
-  background-color:#212326;
-  margin-top:15px;
-  
-  margin-left:7px; 
-  }
-
-  #home{
-    height: 40px;
-    width: 30%;
-    border-radius: 2%;
+   margin:0px;
+   padding:0px;
+}
+#container{
+   width:100%;
+   border:solid thin-black;
+   background-color:#D5D4EB;
    
-    color:white;
+   }
+#header{
+  hight:20px;
+  width:100%;
+  border:solid thin black;
+  background-color:white;
+ 
+ }
+#signin{
+    hight:50pxpx;
+    widht:50%;  
     background-color:white;
-  }
+    display:flex; 
+    text-align:center;
+    }
+#learnmore{
+      color:blue;
+       display:flex;
+       text-align:right;
+       }
+#dismiss{
+     color:blue;
+       text-align:right;
+      display:flex;
+    }
